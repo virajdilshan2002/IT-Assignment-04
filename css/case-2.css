@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(50, 101, 255);
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.border-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 20px solid white;
+  border-top-color: red;
+}
+
+.middle-circle > p {
+  margin: 0px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover .border-circle {
+  animation: rotate 1s ease-in-out 1 0s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

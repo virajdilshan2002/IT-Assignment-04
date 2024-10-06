@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 220px;
+  height: 100%;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: -150px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(160, 76, 255);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+  padding: 0px 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  left: 0px;
+}
+
+.btn img {
+  padding: 1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+}
+
+.btn p {
+  margin: 0px;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  font-style: normal;
+}
