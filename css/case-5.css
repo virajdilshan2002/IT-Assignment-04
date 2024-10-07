@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+  width: 400%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  animation: slide 20s ease-in-out infinite;
+}
+
+.frame {
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+}
+
+.frame-1 {
+  background-image: url(/assets/case-5/image-1.jpg);
+}
+
+.frame-2 {
+  background-image: url(/assets/case-5/image-2.jpg);
+}
+
+.frame-3 {
+  background-image: url(/assets/case-5/image-3.jpg);
+}
+
+.frame-4 {
+  background-image: url(/assets/case-5/image-4.png);
+}
+
+@keyframes slide {
+  0%,
+  100% {
+    transform: translateX(0%);
+  }
+
+  8.33% {
+    transform: translateX(0%);
+  }
+
+  16.66% {
+    transform: translateX(-25%);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  33.33% {
+    transform: translateX(-50%);
+  }
+
+  41.66% {
+    transform: translateX(-50%);
+  }
+
+  50% {
+    transform: translateX(-75%);
+  }
+
+  58.33% {
+    transform: translateX(-75%);
+  }
+
+  66.66% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-50%);
+  }
+
+  83.33% {
+    transform: translateX(-25%);
+  }
+
+  91.66% {
+    transform: translateX(-25%);
+  }
+}
