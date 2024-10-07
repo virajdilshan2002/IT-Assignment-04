@@ -10,7 +10,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: row;
-  animation: slide 20s ease-in-out infinite;
+  animation: slide 27s ease infinite;
 }
 
 .frame {
@@ -41,11 +41,11 @@ body {
     transform: translateX(0%);
   }
 
-  8.33% {
+  8% {
     transform: translateX(0%);
   }
 
-  16.66% {
+  16% {
     transform: translateX(-25%);
   }
 
@@ -53,11 +53,11 @@ body {
     transform: translateX(-25%);
   }
 
-  33.33% {
+  33% {
     transform: translateX(-50%);
   }
 
-  41.66% {
+  41% {
     transform: translateX(-50%);
   }
 
@@ -65,11 +65,11 @@ body {
     transform: translateX(-75%);
   }
 
-  58.33% {
+  58% {
     transform: translateX(-75%);
   }
 
-  66.66% {
+  66% {
     transform: translateX(-50%);
   }
 
@@ -77,11 +77,11 @@ body {
     transform: translateX(-50%);
   }
 
-  83.33% {
+  83% {
     transform: translateX(-25%);
   }
 
-  91.66% {
+  91% {
     transform: translateX(-25%);
   }
 }
