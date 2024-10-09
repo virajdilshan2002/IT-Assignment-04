@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  row-gap: 1rem;
   align-items: center;
   background-color: black;
 }
@@ -95,6 +96,10 @@ body {
   .grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
+  }
+  .container {
+    width: calc(100% - 6rem);
+    height: calc(100% - 6rem);
   }
 }
 
